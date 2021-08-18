@@ -1,0 +1,1102 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xai-model="http://www.mfu.ac.th/ontologies/xai-model.owl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature -->
+
+    <ObjectProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Chloraminesrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Chloraminesrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Conductivityrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Conductivityrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Hardnessrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Hardnessrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Organic_carbonrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Organic_carbonrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Solidsrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Solidsrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Sulfaterange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Sulfaterange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Trihalomethanesrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Trihalomethanesrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Turbidityrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Turbidityrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#phrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#phrange"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_Potability_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_Potability_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_Potability_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_Potability_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Potability -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_Potability_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_Potability_0"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#feature -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_1 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_1">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.392389141471169</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">702.6593800623734</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">187.98825592665045</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.8817595586814795</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51626.21600727108</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">189.66476851636898</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">82.69604506279049</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.4347942828753757</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.021401068441389</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_10 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_10">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.027568712088758</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">727.6099401808244</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">187.91590953911415</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.329039924474237</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49763.04603275026</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">229.6424216352965</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76.45235916462323</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.994928889881878</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.50320664478088</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_11 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_11">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.15637759200349</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">620.5296743334454</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">177.2964305079508</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.346678540221058</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40987.78411272919</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.05858530433284</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.84625436177022</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.938073460455972</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.178919731969547</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_12 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_12">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.741860751337176</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">484.4498095010837</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">181.91590584311936</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.340956454124143</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59515.65634025021</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">279.94930556247937</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">103.21654391914774</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7004069162191646</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.342888617516044</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_13 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_13">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.145195813116969</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">555.6791701296389</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.99725397183664</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.183551690487782</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30719.8546636866</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">177.7174412984223</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.83485240736694</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8228552167099012</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.342744107958994</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_14 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_14">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.49970099501651</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">485.295376371907</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.5418145280821</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.828331468398378</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60170.22121154843</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">224.19338531778237</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">86.61742817042929</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7721271970496475</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.808695906258485</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_15 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_15">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.19659121416811</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">470.4725696926882</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">177.07491938213886</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.557040289479</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58312.748924844826</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">219.38164775411423</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99.14409919874147</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9143031535111366</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.204264356947006</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_16 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_16">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.79545546605092</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">487.1259799617248</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.6996257034306</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.652949276225414</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">38707.71341286461</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.36307694692147</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95.98354140478115</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.726349991537802</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.676780064872503</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_17 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_17">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.370753516923152</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">733.5082988463851</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.22115668657725</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.122672577117289</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32332.019677745524</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195.91827927798613</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.36008657178017</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6664426974608677</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.772871963331356</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_18 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_18">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.117908447793269</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">475.64559373239024</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">173.02258079472185</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.566202388599267</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31976.12678098583</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">139.12450061412773</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.16798690044021</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6022319337925026</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.893935561136963</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_19 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_19">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.64348449648333</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">491.98408088467136</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.2273378210724</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.101438135452556</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53408.887768111264</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">147.51171606770814</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">80.27008545121674</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.9878927246948184</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.190049347604184</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_2 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_2">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.20884720790573</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">534.1957112853538</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">186.92080743294147</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.196961271284433</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29376.35978958313</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">241.22795515276013</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.58379883823486</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6872842894374065</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.819831958142643</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_20 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_20">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.16648500342864</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">726.390816288451</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">187.8740563291401</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6001465337140512</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29146.26104267146</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">242.17921340628584</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">84.2072277348037</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7795174862759948</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.758792536498003</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_21 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_21">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.937423238783673</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">479.2080253163498</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">178.88298296873938</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.41054047786603</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50775.9992410522</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">277.16299041895877</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.72411637736835</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6817837937048132</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.166746322989372</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_22 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_22">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.692279288195223</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">475.98695262432847</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">186.32611925314058</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.886320644992905</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53242.39073166512</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">153.58666938706065</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">79.01992639453951</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9091891376030885</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.49153510257558</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_23 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_23">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.926080711323749</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">733.7709358925812</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">186.17378561047047</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.356286206706523</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">46942.80156739289</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">213.7336235802602</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">81.76798269184887</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.6451015016390893</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.912520182919032</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_24 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_24">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.594761202972576</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">680.6400121168465</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">172.04999817324475</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.73673341885285</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40738.878469765004</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">161.32915077015016</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">104.46297127201021</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.972084185940773</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.714618481597816</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_25 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_25">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.932628911021805</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">749.5021609764416</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.23272570770254</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.219373140949902</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34129.79920161399</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">253.3562408171769</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">109.01214647061381</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.594189302334333</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.444942666073937</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_26 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_26">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.807666775866393</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">472.3167133472376</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">186.505450068305</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.606249224226048</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33732.26428827502</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">204.04878143865946</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.72071046513516</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7057553298577144</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.317967015954185</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_27 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_27">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.009801592891067</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">746.3299048512906</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.52930007641376</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.09453895285648</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33497.83098491158</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">158.525181399454</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.66563812754885</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.7100624779879166</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.334690235780808</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_28 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_28">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.288440758722292</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">750.8033194345342</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">187.00250466307432</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.000481668461145</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32002.024342344055</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">207.66532431692144</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.4262473635801</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.3242852551115374</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.177357626051986</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_29 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_29">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.003836903436552</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">594.8594248323886</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">172.52835168210038</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.50239705776107</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32134.37235765465</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">166.43190905036744</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">108.73574357212564</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.2733279453830098</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.158767601050258</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_3 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_3">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.638388317906612</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">605.12527772577</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.58525188499826</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.603789388117642</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51536.50946720259</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">286.1593303564481</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.58361634352252</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.098577837235961</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.677749733851758</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_30 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_30">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.841708138397932</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">742.3681885111346</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">175.82596505412445</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.155029722689452</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43883.71805973354</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">174.75675050306194</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.73998032509525</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9705836099000114</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.339318234525967</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_31 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_31">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.967279493731338</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">550.1518407017562</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">183.94657415650605</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.347026810530897</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29857.482732824737</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">135.20759379421352</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.57389625016458</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.9595621610977667</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.378620185113672</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_32 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_32">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.918775531872997</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">554.5969894131896</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">170.5840806859947</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.72867482698858</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51454.43152849875</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">285.8261633977622</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76.04105194392106</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.196415086362911</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.799593985237864</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_33 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_33">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.083041689975147</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">483.1994399131097</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">175.13265954457114</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.942628394556495</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29570.32124619417</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">244.97457392409186</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.63275222422591</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5517713902015493</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.108677706569452</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_34 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_34">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.18874643494194</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">662.1836965789435</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">183.12893827884142</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.378910235574903</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33788.73182101842</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">242.62291721271225</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.55734747017367</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.476628142284955</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.880106318414374</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_35 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_35">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.91305634491274</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">474.750131444125</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.94184334451162</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.1468345254074</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31100.51558544227</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">131.51929648767518</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">83.53709473667226</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.9485140205096614</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.675835943552324</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_36 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_36">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.947971227961096</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">493.54490760973505</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">178.60920258914757</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.165043606546957</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40536.6818497268</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">154.00480515643355</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">75.17031102530083</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1334581359309785</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.487966314998138</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_37 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_37">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.31493028159245</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">558.4503496836088</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.04435198561148</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.917417420622683</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32387.644293376216</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">199.61412424881723</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">82.83690317748359</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.3883141359118234</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.44649725772254</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_38 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_38">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.136069023932688</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">489.6774444544866</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">178.80445272729753</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.132369508141368</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">29653.33953591556</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">248.74086343474207</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">88.50134841783839</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.153583861343531</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.235710278671844</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_39 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_39">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.707217044329477</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">483.6645797271519</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.83017827545885</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.290468426512023</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">41585.369386801685</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">289.29968675010207</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">77.30701755341107</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.039733827703434</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.678838986751249</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_4 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_4">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.508651485155164</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">710.1848696352686</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.75390805499416</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.01498203419008</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31018.681326935843</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">271.98476853731756</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.44816888439658</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.9468929122661063</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.433284303535375</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_40 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_40">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.529496415131877</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">475.3948371407606</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.08787865476057</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.69417714609212</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30462.399086584628</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">242.54069774424812</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.96884356185143</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.14389141655653</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.281515835905443</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_41 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_41">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.878786349374982</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">494.2255058990886</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">186.44963561857836</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.122306690180046</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58331.34435859371</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">270.68885937934874</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">94.48072446899992</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.096946583430293</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.123353737756144</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_42 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_42">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.812117752428394</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">534.2539603848944</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">183.6741710962197</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.850637591092033</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32133.649947508355</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">288.84299612013183</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">82.55303164927518</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.488176395144849</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.042081707250732</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_43 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_43">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.145153534251335</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">477.75895230442137</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">187.93725495972396</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1139911869192005</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40558.45543851743</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">273.09258777713853</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.97249786478896</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.048495000374011</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.289247517054438</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_44 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_44">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.99473405235127</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">699.3548489507032</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">185.33688307327537</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.846491746389383</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31075.33883354163</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.3610058900038</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.38306557818916</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5862882883382072</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.478273382107151</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_45 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_45">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.483005384805528</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">490.9418464526628</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">179.56679484566027</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.331261120651375</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31387.141830649143</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.21155257000345</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">109.0370902478254</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.0547587232364526</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.159788092099262</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_46 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_46">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.894389288885108</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">476.1963674005346</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">180.40409789048206</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.43820600622123</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32643.54748024573</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.50567020350047</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.48810324612808</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3144983757552353</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.650458630767423</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_47 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_47">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.765538680845207</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">663.698032662372</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">188.30397688622284</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.462991297339212</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32154.4124817916</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">217.39385287551858</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.38772715914922</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7344470731869956</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.820334359251932</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_48 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_48">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.742050546957024</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">485.27405850766536</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">177.00680971683815</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.487028923281658</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30359.543795851263</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">205.66134375608425</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">85.83928456716703</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3801129500413887</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.554270625210766</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_49 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_49">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.072101294962744</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">628.3622352798028</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">187.82607270689567</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.48827814433923</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50926.791203074696</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">142.06058598942224</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">92.41405197570376</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8127212252439566</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.204371829570572</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_5 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_5">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.357680247917592</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">482.53978842317065</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">188.00513301153632</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4965769552120958</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58379.231690715475</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">130.51417129051677</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.25481989811603</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.034244371722888</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.864514797333557</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_50 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_50">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.869030098111988</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">493.95291353163327</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">176.9325051934869</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.830661611816076</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40166.72595669703</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">152.7278788045428</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">78.80000893958652</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.5135015019502958</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.585086630524284</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_6 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_6">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.772894699064434</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">484.10066547438674</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">183.0999591421293</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.691316392046395</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">33619.50977923031</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.7919477710585</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">93.64080999525872</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.276560705676565</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.622938217629327</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_7 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_7">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.16501538804212</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">472.80132561968884</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.00034118488168</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.825181138549985</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">31300.920652164765</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">178.8568930068826</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76.2690998023411</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.016429285024075</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.694295566849853</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_8 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_8">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.91181893517535</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">562.909981871592</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">186.99526911520286</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.114028388187384</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32075.44331554095</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">159.00795683747208</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">91.46648581239376</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.8510780779362896</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.699861080101275</xai-model:phrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#water_9 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#water_9">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#water"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#Potability_1"/>
+        <xai-model:Chloraminesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.639717994107711</xai-model:Chloraminesrange>
+        <xai-model:Conductivityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">746.4446836690524</xai-model:Conductivityrange>
+        <xai-model:Hardnessrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.7504506447923</xai-model:Hardnessrange>
+        <xai-model:Organic_carbonrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.959359512631767</xai-model:Organic_carbonrange>
+        <xai-model:Solidsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35130.883714293326</xai-model:Solidsrange>
+        <xai-model:Sulfaterange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">245.9615751923959</xai-model:Sulfaterange>
+        <xai-model:Trihalomethanesrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">91.54530501441683</xai-model:Trihalomethanesrange>
+        <xai-model:Turbidityrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.422456926032624</xai-model:Turbidityrange>
+        <xai-model:phrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.481026853139097</xai-model:phrange>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

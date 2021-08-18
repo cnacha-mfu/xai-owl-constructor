@@ -1,0 +1,2394 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xai-model="http://www.mfu.ac.th/ontologies/xai-model.owl#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature -->
+
+    <ObjectProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#agerange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#agerange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#bpsrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#bpsrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cholrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cholrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#oldpeakrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#oldpeakrange"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thalachrange -->
+
+    <DatatypeProperty rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thalachrange"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_2">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_3 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_3">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_4 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_4">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_2">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_3 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_3">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_exang_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_exang_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_exang_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_exang_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_fbs_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_fbs_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_fbs_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_fbs_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_2">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_sex_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_sex_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_sex_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_sex_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_2">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_target_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_target_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_target_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_target_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_0">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_1">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_2">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_3 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_3">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_3"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_4"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_3"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_4"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_2">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_3"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_4"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca_3 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_3">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_4"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca_4 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_4">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ca_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_cp_2"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#exang -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#exang">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_exang_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#exang_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_exang_0"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#fbs -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_fbs_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_fbs_0"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#feature -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_0"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_1"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_1"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_1"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_1"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+                                <someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_3"/>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bpsrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bpsrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bpsrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">200.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bpsrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">93.999</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cholrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cholrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">144.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#oldpeakrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.525</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                    <Class>
+                        <unionOf rdf:parseType="Collection">
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thalachrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">130.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                            <Restriction>
+                                <onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thalachrange"/>
+                                <someValuesFrom>
+                                    <rdfs:Datatype>
+                                        <intersectionOf rdf:parseType="Collection">
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.0</xsd:minInclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                            <rdfs:Datatype>
+                                                <onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+                                                <withRestrictions rdf:parseType="Collection">
+                                                    <rdf:Description>
+                                                        <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">170.0</xsd:maxExclusive>
+                                                    </rdf:Description>
+                                                </withRestrictions>
+                                            </rdfs:Datatype>
+                                        </intersectionOf>
+                                    </rdfs:Datatype>
+                                </someValuesFrom>
+                            </Restriction>
+                        </unionOf>
+                    </Class>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_2"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_2"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_restecg_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#sex -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#sex">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_sex_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#sex_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_sex_0"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#slope -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#slope">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#slope_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_2"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#slope_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_2"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_slope_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#target -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#target">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#target_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#target_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_target_1"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#target_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_target_0"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal">
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_2"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_3"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_3 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_3">
+        <equivalentClass>
+            <Class>
+                <intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_0"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_1"/>
+                    <rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_thal_2"/>
+                </intersectionOf>
+            </Class>
+        </equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_0"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_1 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_1">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.25790750580625</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">142.6117790060314</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.65573675999413</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.239455781819908</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">119.87463682829735</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_10 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_10">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.43711854596516</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">98.8400032901359</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.67203017416249</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7714406932497384</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.39026669559547</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_11 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_11">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.589542258956165</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">112.52604623850641</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">139.8539665196482</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0046440104323215</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.74750930685462</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_12 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_12">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.1554492532175</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">131.08984292260502</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.63747617960658</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6048868193469743</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.63302992600228</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_13 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_13">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.47905506415221</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">99.04838044323307</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">139.44429208531952</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.143271592486635</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.02128557018969</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_14 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_14">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61.43507252546178</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">110.71492592497324</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">142.03526550899332</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.407395127315703</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.63430867223195</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_15 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_15">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.17940973715731</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">104.24255825428483</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.26216896791175</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.482114238378356</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.1723646115414</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_16 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_16">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.59318098192236</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116.54320447522493</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">138.90634269750717</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.519257310302051</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.10990651475537</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_17 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_17">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">76.53143305942251</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">128.99269886195432</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">137.7779664360757</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.3320419373007484</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.6325502328105</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_18 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_18">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">47.69506572457371</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">115.94132964950691</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">142.63008162090287</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4296455215717163</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.49003837524666</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_19 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_19">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">56.461242826274386</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.87145408714505</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.6209026575733</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4563924266029957</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.5738190545972</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_2 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_2">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.10135729751995</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">108.95116079686622</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.87036208338304</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4303362746735737</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">118.59615513706241</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_20 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_20">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.29523344543308</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">132.77039576746265</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.59198844345974</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.453347547886735</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.63430865701885</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_21 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_21">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.26038222550162</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">118.17698653191573</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.34818699784158</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4384282735067613</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">167.1662296456168</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_22 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_22">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">74.09373879121806</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">150.35373010175402</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.20405420182824</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0191316912816815</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.6055317540796</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_23 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_23">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.072146383387654</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.09297455222602</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">141.15230323230904</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8510632374085492</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.16898376663616</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_24 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_24">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.6528863612977</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.50842963038468</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.28489291860893</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4226027750359216</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.24154716606762</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_25 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_25">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.797553253872834</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">97.95150145596448</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.68279807285744</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2235103210023635</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.7551354290752</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_26 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_26">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">52.98889813670543</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">141.45023685359544</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.11344146897305</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4735199840781306</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.9229858836408</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_27 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_27">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">40.89204491454679</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">128.96712598065614</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.3320872857897</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.146981887342788</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.66148209359272</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_28 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_28">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.27496347988873</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">130.75727208931195</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.23950761675033</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6620541711434114</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.13615725737148</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_29 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_29">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">70.66928404507864</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">135.98178382233374</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">141.78751929054985</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8880973633169873</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.15668305123121</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_3 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_3">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">48.48193775040224</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">111.1144162957367</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.88962177542103</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.297941756095908</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.0706749571066</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_30 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_30">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32.612443634860604</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">162.55014742553885</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.13938052952187</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.043184659174868</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.39895193955107</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_31 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_31">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.433317115706465</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">116.35877284743877</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.06175019050457</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0841949941292874</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">167.90534614238757</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_32 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_32">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.81641935387777</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">138.34752204345838</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.48222251632326</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.998571563635268</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.19784158772183</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_33 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_33">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.283369234241626</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">128.85441335766023</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.50597021722228</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8179871664583003</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">164.6351157982409</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_34 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_34">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">55.59780742528806</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.19727532329472</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.46816856825181</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.5203956241769423</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.73686129903928</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_35 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_35">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.9021391188906</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">188.02048009875682</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.40291177679833</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.399687664306259</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">169.50479350385052</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_36 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_36">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.18057560070251</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">135.14220510300774</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">137.4699254104693</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2252109982651556</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.31681446493378</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_37 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_37">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">50.67660570632343</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">182.81666878046101</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.16272828942536</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.1970235867398675</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.57514197152402</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_38 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_38">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.15858513623276</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">128.0265433332717</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.20176456257495</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.9749138312183971</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">167.69637913405887</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_39 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_39">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.095798113496336</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">190.85453553073114</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.01863292647556</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2624017069813567</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">166.63624416162835</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_4 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_4">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54.79999640470152</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">132.0872870174373</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.9891203785701</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6614070289028489</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.37696978079788</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_40 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_40">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">59.43770813505469</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.15301110737437</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.75104512181508</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.1343604301238734</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.93011513033005</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_41 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_41">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">37.91869839773746</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">141.81569324669584</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.80515459272856</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.444200968901834</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">120.07648809319294</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_42 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_42">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">62.70732414558181</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">95.82977583297576</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">143.06402279015333</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.426812984695512</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">126.70137449618824</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_43 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_43">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.76995814640709</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">174.4303207643578</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.68976339997222</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8000115275728694</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.14046134733977</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_44 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_44">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">53.15656182486281</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">191.89782436974954</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.22970395924459</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.1900419402750613</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">168.40443368699667</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_45 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_45">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">72.42790214689944</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">136.6041060725898</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">142.21593908071887</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6449727180408962</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">169.02261934272858</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_46 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_46">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">65.00974871553127</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">131.15649951052288</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.09793384756045</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4196024459559564</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">122.35643972573104</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_47 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_47">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">39.98440423865088</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">141.4807862979809</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.33606130960753</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4782357440811964</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">125.13023663889707</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_48 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_48">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54.78684211564952</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">139.15883419767326</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">137.4688476015055</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.952504799162456</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">163.06786141107605</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_49 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_49">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">57.24712140931231</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">179.56259087998018</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">138.83901879954797</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.9816960957644059</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">117.31694669048056</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_5 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_5">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">45.402514739289494</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">131.68204404208154</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.5236076623408</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.0879333692583706</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">127.26824389734387</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_50 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_50">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.84591523212276</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">107.10753201895902</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">123.02414895073514</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.197163908313657</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.54136980007146</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_6 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_6">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">58.89498859020084</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">188.04423089220265</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.03737674792578</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.412485714346669</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">165.17200589774666</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_7 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_7">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54.841662996473694</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">102.96222904654459</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">134.9227715840125</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8046615791461096</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">124.67435051095919</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_8 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_8">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">54.118606856483574</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">105.1272171689628</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">121.1246544511167</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4058673897660263</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">129.621470604602</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#heart_9 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#heart_9">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#heart"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ca_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#cp_3"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#exang_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#fbs_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1"/>
+        <xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0"/>
+        <xai-model:agerange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">49.81727649461501</xai-model:agerange>
+        <xai-model:bpsrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">140.80187902480017</xai-model:bpsrange>
+        <xai-model:cholrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">135.36294804858215</xai-model:cholrange>
+        <xai-model:oldpeakrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6195647068654415</xai-model:oldpeakrange>
+        <xai-model:thalachrange rdf:datatype="http://www.w3.org/2001/XMLSchema#double">166.05286814961815</xai-model:thalachrange>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_0"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_1"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2 -->
+
+    <Class rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#restecg_2"/>
+    </Class>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_0">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#sex_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_2">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#slope_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#target_1 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#target_1">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#target_0"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_0">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_1">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2 -->
+
+    <NamedIndividual rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_2">
+        <rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#thal_3"/>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

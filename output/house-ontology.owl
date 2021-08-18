@@ -1,0 +1,3388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://www.w3.org/2002/07/owl#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xai-model="http://www.mfu.ac.th/ontologies/xai-model.owl#">
+
+<rdf:Description rdf:nodeID="genid1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Object Properties -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Data properties -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#age_range -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#households_range -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#households_range">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#income_range -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#income_range">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#population_range -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#population_range">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Classes -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_INLAND -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_INLAND">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_ISLAND -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_ISLAND">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#feature -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#feature">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house0 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house0">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid2"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid2">
+	<intersectionOf rdf:nodeID="genid191"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid191">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid192"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid192">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid193"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid193">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid194"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid194">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+	<someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_INLAND"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid193">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid191">
+	<rdf:rest rdf:nodeID="genid167"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid167">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid168"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid168">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid180"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid180">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid181"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid181">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range"/>
+	<someValuesFrom rdf:nodeID="genid182"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid182">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid187"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid187">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid188"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid188">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid189"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid189">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid190"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid190">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.2</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid189">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid187">
+	<rdf:rest rdf:nodeID="genid183"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid183">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid184"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid184">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid185"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid185">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid186"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid186">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid185">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid183">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid180">
+	<rdf:rest rdf:nodeID="genid169"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid169">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid170"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid170">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range"/>
+	<someValuesFrom rdf:nodeID="genid171"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid171">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid176"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid176">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid177"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid177">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid178"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid178">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid179"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid179">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid178">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid176">
+	<rdf:rest rdf:nodeID="genid172"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid172">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid173"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid173">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid174"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid174">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid175"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid175">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid174">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid172">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid169">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid167">
+	<rdf:rest rdf:nodeID="genid110"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid110">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid111"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid111">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid156"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid156">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid157"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid157">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid158"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid158">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid163"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid163">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid164"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid164">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid165"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid165">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid166"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid166">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.999</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid165">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid163">
+	<rdf:rest rdf:nodeID="genid159"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid159">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid160"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid160">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid161"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid161">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid162"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid162">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">198.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid161">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid159">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid156">
+	<rdf:rest rdf:nodeID="genid145"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid145">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid146"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid146">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid147"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid147">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid152"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid152">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid153"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid153">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid154"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid154">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid155"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid155">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">198.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid154">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid152">
+	<rdf:rest rdf:nodeID="genid148"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid148">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid149"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid149">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid150"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid150">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid151"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid151">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">269.4</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid150">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid148">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid145">
+	<rdf:rest rdf:nodeID="genid134"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid134">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid135"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid135">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid136"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid136">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid141"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid141">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid142"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid142">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid143"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid143">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid144"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid144">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">269.4</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid143">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid141">
+	<rdf:rest rdf:nodeID="genid137"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid137">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid138"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid138">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid139"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid139">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid140"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid140">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">322.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid139">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid137">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid134">
+	<rdf:rest rdf:nodeID="genid123"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid123">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid124"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid124">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid125"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid125">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid130"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid130">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid131"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid131">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid132"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid132">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid133"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid133">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">322.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid132">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid130">
+	<rdf:rest rdf:nodeID="genid126"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid126">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid127"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid127">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid128"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid128">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid129"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid129">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">377.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid128">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid126">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid123">
+	<rdf:rest rdf:nodeID="genid112"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid112">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid113"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid113">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid114"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid114">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid119"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid119">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid120"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid120">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid121"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid121">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid122"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid122">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">377.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid121">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid119">
+	<rdf:rest rdf:nodeID="genid115"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid115">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid116"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid116">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid117"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid117">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid118"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid118">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">435.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid117">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid115">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid112">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid110">
+	<rdf:rest rdf:nodeID="genid75"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid75">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid76"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid76">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid99"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid99">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid100"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid100">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#households_range"/>
+	<someValuesFrom rdf:nodeID="genid101"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid101">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid106"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid106">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid107"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid107">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid108"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid108">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid109"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid109">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.999</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid108">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid106">
+	<rdf:rest rdf:nodeID="genid102"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid102">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid103"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid103">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid104"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid104">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid105"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid105">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.2</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid104">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid102">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid99">
+	<rdf:rest rdf:nodeID="genid88"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid88">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid89"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid89">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#households_range"/>
+	<someValuesFrom rdf:nodeID="genid90"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid90">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid95"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid95">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid96"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid96">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid97"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid97">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid98"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid98">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">184.2</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid97">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid95">
+	<rdf:rest rdf:nodeID="genid91"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid91">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid92"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid92">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid93"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid93">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid94"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid94">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">254.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid93">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid91">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid88">
+	<rdf:rest rdf:nodeID="genid77"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid77">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid78"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid78">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#households_range"/>
+	<someValuesFrom rdf:nodeID="genid79"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid79">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid84"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid84">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid85"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid85">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid86"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid86">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid87"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid87">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">254.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid86">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid84">
+	<rdf:rest rdf:nodeID="genid80"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid80">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid81"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid81">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid82"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid82">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid83"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid83">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">305.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid82">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid80">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid77">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid75">
+	<rdf:rest rdf:nodeID="genid62"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid62">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid63"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid63">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid64"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid64">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid65"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid65">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#income_range"/>
+	<someValuesFrom rdf:nodeID="genid66"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid66">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid71"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid71">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid72"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid72">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid73"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid73">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid74"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid74">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.499</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid73">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid71">
+	<rdf:rest rdf:nodeID="genid67"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid67">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid68"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid68">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid69"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid69">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid70"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid70">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.904</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid69">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid67">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid64">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid62">
+	<rdf:rest rdf:nodeID="genid49"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid49">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid50"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid50">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid51"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid51">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid52"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid52">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#population_range"/>
+	<someValuesFrom rdf:nodeID="genid53"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid53">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid58"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid58">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid59"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid59">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid60"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid60">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid61"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid61">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2563.8</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid60">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid58">
+	<rdf:rest rdf:nodeID="genid54"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid54">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid55"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid55">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid56"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid56">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid57"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid57">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">35682.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid56">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid54">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid51">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid49">
+	<rdf:rest rdf:nodeID="genid3"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid3">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid4"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid38"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid38">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid39"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid39">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid40"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid40">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid45"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid45">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid46"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid46">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid47"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid47">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid48"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid48">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1837.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid47">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid45">
+	<rdf:rest rdf:nodeID="genid41"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid41">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid42"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid42">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid43"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid43">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid44"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid44">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2127.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid43">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid41">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid38">
+	<rdf:rest rdf:nodeID="genid27"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid27">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid28"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid28">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid29"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid29">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid34"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid34">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid35"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid35">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid36"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid36">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid37"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid37">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2127.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid36">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid34">
+	<rdf:rest rdf:nodeID="genid30"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid30">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid31"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid31">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid32"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid32">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid33"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid33">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2461.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid32">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid30">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid27">
+	<rdf:rest rdf:nodeID="genid16"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid16">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid17"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid18"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid18">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid23"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid23">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid24"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid24">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid25"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid25">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid26"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid26">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2461.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid25">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid23">
+	<rdf:rest rdf:nodeID="genid19"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid19">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid20"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid20">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid21"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid21">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid22"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid22">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2873.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid21">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid19">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid16">
+	<rdf:rest rdf:nodeID="genid5"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid5">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid6"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid6">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid7"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid7">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid12"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid12">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid13"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid13">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid14"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid14">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid15"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid15">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2873.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid14">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid12">
+	<rdf:rest rdf:nodeID="genid8"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid8">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid9"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid9">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid10"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid10">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid11"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid11">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3481.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid10">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid8">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid5">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid3">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house0">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house1 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid195"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid195">
+	<intersectionOf rdf:nodeID="genid222"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid222">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid223"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid223">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid257"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid257">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid258"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid258">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range"/>
+	<someValuesFrom rdf:nodeID="genid259"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid259">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid264"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid264">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid265"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid265">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid266"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid266">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid267"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid267">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.999</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid266">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid264">
+	<rdf:rest rdf:nodeID="genid260"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid260">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid261"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid261">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid262"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid262">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid263"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid263">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.2</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid262">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid260">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid257">
+	<rdf:rest rdf:nodeID="genid246"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid246">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid247"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid247">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range"/>
+	<someValuesFrom rdf:nodeID="genid248"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid248">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid253"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid253">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid254"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid254">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid255"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid255">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid256"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid256">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.2</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid255">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid253">
+	<rdf:rest rdf:nodeID="genid249"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid249">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid250"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid250">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid251"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid251">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid252"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid252">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid251">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid249">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid246">
+	<rdf:rest rdf:nodeID="genid235"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid235">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid236"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid236">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range"/>
+	<someValuesFrom rdf:nodeID="genid237"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid237">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid242"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid242">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid243"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid243">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid244"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid244">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid245"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid245">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid244">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid242">
+	<rdf:rest rdf:nodeID="genid238"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid238">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid239"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid239">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid240"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid240">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid241"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid241">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid240">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid238">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid235">
+	<rdf:rest rdf:nodeID="genid224"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid224">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid225"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid225">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#age_range"/>
+	<someValuesFrom rdf:nodeID="genid226"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid226">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid231"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid231">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid232"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid232">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid233"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid233">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid234"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid234">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid233">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid231">
+	<rdf:rest rdf:nodeID="genid227"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid227">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid228"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid228">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid229"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid229">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid230"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid230">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid229">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid227">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid224">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid222">
+	<rdf:rest rdf:nodeID="genid209"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid209">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid210"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid210">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid211"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid211">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid212"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid212">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#income_range"/>
+	<someValuesFrom rdf:nodeID="genid213"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid213">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid218"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid218">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid219"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid219">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid220"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid220">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid221"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid221">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.969</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid220">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid218">
+	<rdf:rest rdf:nodeID="genid214"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid214">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid215"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid215">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid216"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid216">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid217"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid217">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.442</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid216">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid214">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid211">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid209">
+	<rdf:rest rdf:nodeID="genid196"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid196">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid197"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid197">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid198"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid198">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid199"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid199">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid200"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid200">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid205"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid205">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid206"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid206">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid207"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid207">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid208"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid208">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1837.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid207">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid205">
+	<rdf:rest rdf:nodeID="genid201"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid201">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid202"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid202">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid203"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid203">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid204"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid204">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2127.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid203">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid201">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid198">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid196">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid195">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house1">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house2 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid268"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid268">
+	<intersectionOf rdf:nodeID="genid365"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid365">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid366"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid366">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid367"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid367">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid368"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid368">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#hasFeature"/>
+	<someValuesFrom rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_&lt;1H OCEAN"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid367">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid365">
+	<rdf:rest rdf:nodeID="genid352"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid352">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid353"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid353">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid354"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid354">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid355"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid355">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#bedrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid356"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid356">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid361"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid361">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid362"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid362">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid363"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid363">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid364"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid364">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">965.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid363">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid361">
+	<rdf:rest rdf:nodeID="genid357"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid357">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid358"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid358">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid359"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid359">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid360"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid360">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6445.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid359">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid357">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid354">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid352">
+	<rdf:rest rdf:nodeID="genid339"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid339">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid340"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid340">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid341"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid341">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid342"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid342">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#households_range"/>
+	<someValuesFrom rdf:nodeID="genid343"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid343">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid348"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid348">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid349"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid349">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid350"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid350">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid351"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid351">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">890.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid350">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid348">
+	<rdf:rest rdf:nodeID="genid344"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid344">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid345"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid345">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid346"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid346">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid347"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid347">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6082.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid346">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid344">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid341">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid339">
+	<rdf:rest rdf:nodeID="genid326"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid326">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid327"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid327">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid328"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid328">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid329"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid329">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#income_range"/>
+	<someValuesFrom rdf:nodeID="genid330"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid330">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid335"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid335">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid336"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid336">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid337"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid337">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid338"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid338">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.158</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid337">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid335">
+	<rdf:rest rdf:nodeID="genid331"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid331">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid332"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid332">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid333"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid333">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid334"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid334">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid333">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid331">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid328">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid326">
+	<rdf:rest rdf:nodeID="genid269"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid269">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid270"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid270">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<unionOf rdf:nodeID="genid315"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid315">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid316"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid316">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid317"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid317">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid322"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid322">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid323"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid323">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid324"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid324">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid325"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid325">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.999</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid324">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid322">
+	<rdf:rest rdf:nodeID="genid318"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid318">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid319"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid319">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid320"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid320">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid321"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid321">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">943.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid320">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid318">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid315">
+	<rdf:rest rdf:nodeID="genid304"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid304">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid305"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid305">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid306"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid306">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid311"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid311">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid312"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid312">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid313"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid313">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid314"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid314">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid313">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid311">
+	<rdf:rest rdf:nodeID="genid307"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid307">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid308"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid308">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid309"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid309">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid310"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid310">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1580.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid309">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid307">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid304">
+	<rdf:rest rdf:nodeID="genid293"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid293">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid294"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid294">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid295"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid295">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid300"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid300">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid301"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid301">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid302"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid302">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid303"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid303">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1580.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid302">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid300">
+	<rdf:rest rdf:nodeID="genid296"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid296">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid297"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid297">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid298"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid298">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid299"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid299">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1837.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid298">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid296">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid293">
+	<rdf:rest rdf:nodeID="genid282"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid282">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid283"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid283">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid284"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid284">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid289"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid289">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid290"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid290">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid291"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid291">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid292"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid292">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1837.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid291">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid289">
+	<rdf:rest rdf:nodeID="genid285"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid285">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid286"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid286">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid287"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid287">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid288"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid288">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2127.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid287">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid285">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid282">
+	<rdf:rest rdf:nodeID="genid271"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid271">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid272"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid272">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+	<onProperty rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#totalrooms_range"/>
+	<someValuesFrom rdf:nodeID="genid273"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid273">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<intersectionOf rdf:nodeID="genid278"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid278">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid279"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid279">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid280"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid280">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid281"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid281">
+	<xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">943.0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid280">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid278">
+	<rdf:rest rdf:nodeID="genid274"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid274">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid275"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid275">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+	<withRestrictions rdf:nodeID="genid276"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid276">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:nodeID="genid277"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid277">
+	<xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1299.0</xsd:maxExclusive>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid276">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid274">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid271">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid269">
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid268">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house2">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#feature"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_INLAND -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_INLAND">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid369"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid369">
+	<intersectionOf rdf:nodeID="genid373"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid373">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_ISLAND"/>
+	<rdf:rest rdf:nodeID="genid372"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid372">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_&lt;1H OCEAN"/>
+	<rdf:rest rdf:nodeID="genid371"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid371">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR BAY"/>
+	<rdf:rest rdf:nodeID="genid370"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid370">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR OCEAN"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid369">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_INLAND">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_ISLAND -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_ISLAND">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid374"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid374">
+	<intersectionOf rdf:nodeID="genid378"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid378">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_INLAND"/>
+	<rdf:rest rdf:nodeID="genid377"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid377">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_&lt;1H OCEAN"/>
+	<rdf:rest rdf:nodeID="genid376"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid376">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR BAY"/>
+	<rdf:rest rdf:nodeID="genid375"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid375">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR OCEAN"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid374">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_ISLAND">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#output -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#output">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_<1H OCEAN -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_&lt;1H OCEAN">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR BAY -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR BAY">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR OCEAN -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR OCEAN">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_<1H OCEAN -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_&lt;1H OCEAN">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid379"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid379">
+	<intersectionOf rdf:nodeID="genid383"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid383">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_INLAND"/>
+	<rdf:rest rdf:nodeID="genid382"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid382">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_ISLAND"/>
+	<rdf:rest rdf:nodeID="genid381"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid381">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR BAY"/>
+	<rdf:rest rdf:nodeID="genid380"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid380">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR OCEAN"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid379">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_&lt;1H OCEAN">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR BAY -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR BAY">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid384"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid384">
+	<intersectionOf rdf:nodeID="genid388"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid388">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_INLAND"/>
+	<rdf:rest rdf:nodeID="genid387"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid387">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_ISLAND"/>
+	<rdf:rest rdf:nodeID="genid386"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid386">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_&lt;1H OCEAN"/>
+	<rdf:rest rdf:nodeID="genid385"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid385">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR OCEAN"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid384">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR BAY">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR OCEAN -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR OCEAN">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<equivalentClass rdf:nodeID="genid389"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid389">
+	<intersectionOf rdf:nodeID="genid393"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid393">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_INLAND"/>
+	<rdf:rest rdf:nodeID="genid392"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid392">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_ISLAND"/>
+	<rdf:rest rdf:nodeID="genid391"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid391">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_&lt;1H OCEAN"/>
+	<rdf:rest rdf:nodeID="genid390"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid390">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdf:first rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#NOT_ocean_proximity_NEAR BAY"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid389">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR OCEAN">
+	<rdfs:subClassOf rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity"/>
+</rdf:Description>
+<!--  -->
+<!--  -->
+<!--  -->
+<!-- ################################################################# -->
+<!-- # -->
+<!-- #    Individuals -->
+<!-- # -->
+<!-- ################################################################# -->
+<!--  -->
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_1 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.281708142329443</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">392.8768644790959</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">240.661280540808</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6514355754913816</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25600.227209042787</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2720.3658841921633</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_10 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_10">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.763584174489443</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">156.7266382728233</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">203.60540368623754</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7042040249664918</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13900.638864964629</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2015.492415331712</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_11 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_11">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.826300641561893</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">875.246255124931</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">679.2890431801816</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.257298232816011</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1895.0549120165697</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1904.9176825529164</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_12 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_12">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_2"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.85191810612462</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1295.1051619422408</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">605.4171115922397</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.409087606734102</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1483.6768313352902</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1955.848603109774</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_13 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_13">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_3"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.365503514269882</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2047.7123191658634</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">225.3033697344993</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.319616562903754</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">913.1407440839621</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1928.6158759335685</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_14 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_14">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_2"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.514505011520844</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">491.62035400696675</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">340.1856730193239</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.985943760223099</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1640.1026231615533</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2001.9947760330044</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_15 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_15">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.453193621231623</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">643.5240468315982</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">290.4168698631241</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.997051609836369</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">263.5597650091509</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2048.854218871822</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_16 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_16">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_3"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.71128821659734</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">340.19852488708364</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">289.0671467046015</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.193765119861895</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1767.5507883194464</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2065.9576090438272</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_17 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_17">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.9383832507209686</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">940.36114149189</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">290.55703559293323</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.315234851274866</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">859.2747551922096</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2002.997635455388</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_18 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_18">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_3"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.578145203398282</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1412.2334858854847</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">512.512496927988</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.070808084935018</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">693.4025147799882</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1939.018601612933</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_19 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_19">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_2"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.74608093911766</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">753.9314087817487</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">255.11551964758468</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.197527344576086</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1497.817237801276</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1963.1587569510318</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_2 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.22730503225236</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">423.65995653154044</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">209.04822991397114</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.702624154223666</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16968.149917963343</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3281.0585500958464</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_20 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_20">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.560144889996206</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">446.4647854831901</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">821.870416524461</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.403551827429053</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2025.948686729591</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2005.9058904608528</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_21 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_21">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">34.6025076594183</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2054.1532177752897</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4367.172683312905</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.0271446421654</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7578.659973546446</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1664.0816918956134</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_22 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_22">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.259314053681678</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4410.1629036845425</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3920.0436486039152</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.515878792399274</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2534.817854741127</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1543.2944958789703</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_23 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_23">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.745203695400203</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1766.4206640262025</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3549.0330631276647</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.06832442627111</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2531.432880178826</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">891.3210151802224</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_24 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_24">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.045780857376908</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3144.5443096114986</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5491.025150135836</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.528706198533758</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">600.7451316084546</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">943.4410562117614</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_25 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_25">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.921344269628367</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3542.587068854086</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4854.307972560353</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.97611047583696</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1277.9103512448598</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2018.3020098980455</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_26 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_26">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3896513295778279</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1013.8155867822416</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2389.1123766803394</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.184611381467678</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">26692.042909892185</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2060.0152216415754</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_27 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_27">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.401727353189436</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1069.2318881660656</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2751.6428682985606</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.926882414231375</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">558.8283929060566</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1091.267064586008</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_28 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_28">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27.23280895263185</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2298.6542731453255</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1178.80270385726</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.21103174395393</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8288.379968325073</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">258.98409256109994</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_29 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_29">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">51.74940362096413</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1599.6302236191227</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5153.829069704403</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.316642006505422</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">960.6203609694</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1714.8734776591546</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_3 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_3">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.300681978521744</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">265.9184096957923</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">188.2240300690575</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3209196780869101</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12329.705377204278</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3097.4622562167983</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_30 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_30">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">30.76732530498228</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5794.326399303726</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2359.6647316109047</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.34461357726647</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2034.487640443203</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1540.6530418026796</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_4 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_4">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.340132490099286</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">303.6152177847106</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">195.03220321077796</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5846925805424732</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">25908.328647975035</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1911.212523685234</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_5 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_5">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">13.514857040561829</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">291.24024091734185</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61.71509594334008</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8569567978792385</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">32359.389364090162</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2510.1384662954656</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_6 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_6">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">17.329782549712878</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">90.39253864717016</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">61.422565667079425</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.3480145622541706</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18775.939700526524</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2605.132263803867</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_7 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_7">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.510929337148674</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">288.93637181408997</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">276.62423895886775</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7944612187669028</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15459.845186254992</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2182.1694626170097</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_8 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_8">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.420455277120837</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">324.0761923373151</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">266.0827970542947</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.6077318767648427</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5537.419608786113</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2730.4277635226863</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#house_9 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#house_9">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#output"/>
+	<xai-model:hasFeature rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1"/>
+	<xai-model:age_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.834353443575417</xai-model:age_range>
+	<xai-model:bedrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">339.21720852973925</xai-model:bedrooms_range>
+	<xai-model:households_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">269.23231243725735</xai-model:households_range>
+	<xai-model:income_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.7799002737430447</xai-model:income_range>
+	<xai-model:population_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">27146.378239836657</xai-model:population_range>
+	<xai-model:totalrooms_range rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2290.150179843912</xai-model:totalrooms_range>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_0">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_&lt;1H OCEAN"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_1">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_INLAND"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_2 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_2">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_ISLAND"/>
+</rdf:Description>
+<!--  -->
+<!-- http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_3 -->
+
+<rdf:Description rdf:about="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_3">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.mfu.ac.th/ontologies/xai-model.owl#ocean_proximity_NEAR BAY"/>
+</rdf:Description>
+<!--  -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
+</rdf:RDF>
